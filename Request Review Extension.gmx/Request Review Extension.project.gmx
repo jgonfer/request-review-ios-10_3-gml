@@ -5,9 +5,23 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\s_button</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_logo</background>
+    <background>background\bg_signature</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\requestReview.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\o_button</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\r_main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
